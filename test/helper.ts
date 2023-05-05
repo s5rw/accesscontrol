@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  *  Test Helper
  *  @author   Onur Yıldırım <onur@cutepilot.com>

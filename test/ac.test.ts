@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  *  Test Suite: AccessControl
  *  @author   Onur Yıldırım <onur@cutepilot.com>

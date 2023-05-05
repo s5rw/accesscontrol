@@ -15,21 +15,13 @@
         "pretty": true,
         "allowUnreachableCode": false,
         "allowUnusedLabels": false,
-        "allowJs": false, // cannot be true when decleration is true
+        "allowJs": true,
         "noImplicitAny": false,
-        "suppressImplicitAnyIndexErrors": true,
         "noImplicitReturns": true,
         "noImplicitUseStrict": false,
-        "noFallthroughCasesInSwitch": true,
-        "typeRoots": [
-            "./node_modules/@types",
-            "./node_modules"
-        ],
-        "types": [
-            "node"
-        ],
+        "noFallthroughCasesInSwitch": true,        
         "outDir": "./lib"
-    },
+    },    
     "include": [
         "./src/**/*.ts"
     ],
