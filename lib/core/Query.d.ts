@@ -212,6 +212,6 @@ declare class Query {
      *  @param {String} [resource]
      *  @returns {Permission}
      */
-    private _getPermission(action, possession, resource?);
+    private _getPermission;
 }
 export { Query };

@@ -1,5 +1,12 @@
 ## AccessControl - Change Log
 
+
+### v2.3.0 (2023-05-08)
+
+- Switched to forked notation: @s5rw/notation.
+- **(Dev)** Updated dev-dependencies to latest versions.
+
+**-- Fork --**
 ### v2.2.1 (2018-02-24)
 
 - **Fixed** an issue with attribute filtering caused by the core dependency Notation. Now [fixed](https://github.com/onury/notation/issues/7) and updated.

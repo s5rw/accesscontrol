@@ -110,7 +110,6 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@s5rw/notation": "^2.1.4",
-    "notation": "^2.0.0"
+    "@s5rw/notation": "^2.1.4"
   }
 }

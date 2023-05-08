@@ -51,7 +51,7 @@ declare class Access {
      *  @type {Boolean}
      *  @readonly
      */
-    readonly denied: boolean;
+    get denied(): boolean;
     /**
      *  A chainer method that sets the role(s) for this `Access` instance.
      *  @param {String|Array<String>} value
@@ -362,6 +362,6 @@ declare class Access {
      *  @returns {Access}
      *           Self instance of `Access`.
      */
-    private _prepareAndCommit(action, possession, resource?, attributes?);
+    private _prepareAndCommit;
 }
 export { Access };
